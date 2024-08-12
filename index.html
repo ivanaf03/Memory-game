@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Modern+Antiqua&family=Whisper&display=swap" rel="stylesheet">
+
+    <title>Memory</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <div class="section1">
+            <h1>MEMORY</h1>
+            <table>
+                <tr>
+                    <td><button id="0" onclick="show(0)"><span></span></button></td>
+                    <td><button id="1" onclick="show(1)"><span></span></button></td>
+                    <td><button id="2" onclick="show(2)"><span></span></button></td>
+                    <td><button id="3" onclick="show(3)"><span></span></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="show(4)"><span></span></button></td>
+                    <td><button id="5" onclick="show(5)"><span></span></button></td>
+                    <td><button id="6" onclick="show(6)"><span></span></button></td>
+                    <td><button id="7" onclick="show(7)"><span></span></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="show(8)"><span></span></button></td>
+                    <td><button id="9" onclick="show(9)"><span></span></button></td>
+                    <td><button id="10" onclick="show(10)"><span></span></button></td>
+                    <td><button id="11" onclick="show(11)"><span></span></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="show(12)"><span></span></button></td>
+                    <td><button id="13" onclick="show(13)"><span></span></button></td>
+                    <td><button id="14" onclick="show(14)"><span></span></button></td>
+                    <td><button id="15" onclick="show(15)"><span></span></button></td>
+                </tr>
+            </table>            
+        </div>
+        <div class="section2">
+            <div class="stats" id="successes">Successes: 0</div>
+            <div class="stats" id="time">Time remaining: 30 s</div>
+            <div class="stats" id="moves">Movements: 0</div>
+        </div>
+    </main>
+    <footer>Based in <a href="https://www.youtube.com/watch?v=TMWkKPlUUJ4&list=PLJubkp8BnTJtjPikTnv8JoYWKFjUu7bRH&index=58">CodingTube's video.</a> Thank you David Ruiz.🤍</footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
